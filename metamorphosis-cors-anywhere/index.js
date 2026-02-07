@@ -1,17 +1,4 @@
-/*
-CORS Anywhere as a Cloudflare Worker!
-(c) 2019 by Zibri (www.zibri.org)
-email: zibri AT zibri DOT org
-https://github.com/Zibri/cloudflare-cors-anywhere
-
-This Cloudflare Worker script acts as a CORS proxy that allows
-cross-origin resource sharing for specified origins and URLs.
-It handles OPTIONS preflight requests and modifies response headers accordingly to enable CORS.
-The script also includes functionality to parse custom headers and provide detailed information
-about the CORS proxy service when accessed without specific parameters.
-The script is configurable with whitelist and blacklist patterns, although the blacklist feature is currently unused.
-The main goal is to facilitate cross-origin requests while enforcing specific security and rate-limiting policies.
-*/
+/*Metamorrphosis CORS Anywhere as a Cloudflare Worker.*/
 
 // Configuration: Whitelist and Blacklist (not used in this version)
 // whitelist = [ "^http.?://www.zibri.org$", "zibri.org$", "test\\..*" ];  // regexp for whitelisted urls
