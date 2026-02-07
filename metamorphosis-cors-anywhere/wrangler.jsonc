@@ -1,5 +1,8 @@
 {
-  "name": "metamorphosis-cors-anywhere",  
+  "name": "metamorphosis-cors-anywhere",
+  "main": "index.js",  // <-- WICHTIG: Das fehlt bei dir!
   "compatibility_date": "2026-02-07",
-  "main": "index.ts"
+  "assets": {
+    "directory": "/"
+  }
 }
